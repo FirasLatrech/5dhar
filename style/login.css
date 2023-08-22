@@ -1,0 +1,83 @@
+.login-form , .register-form{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+.imageContiner {
+  border-radius: 12px;
+}
+.imageContiner img{
+  width: 700px;
+height: 700px;
+
+}
+.textContiner{
+  margin-top: -3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.inputs{
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 329px;
+height: 59px;
+flex-shrink: 0;
+gap: 1rem;
+  border-radius: 33px;
+background: rgba(73, 187, 189, 0.60);
+}
+.inputs button{
+  cursor: pointer;
+  position: relative;
+  left: 4rem;
+  padding: 11px 2rem 11px 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: #49BBBD;
+}
+.inputs  #register{
+  background-color:transparent;
+}
+.textContiner p{
+  opacity: 0.6;
+}
+.emailContiner , .passwordContiner{
+  display: flex;
+  flex-direction: column;
+}
+#password , #email , #username{
+  border-radius: 40px;
+border: 1px solid #49BBBD;
+background: #FFF;
+width: 435px;
+height: 54px;
+flex-shrink: 0;
+padding-left: 1rem;
+}
+.underInput{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8rem;
+
+}
+.login{
+  width: 232px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 36px;
+background: #274C5B;
+color: white;
+font-size: 20px;
+letter-spacing: 3Px;
+}
